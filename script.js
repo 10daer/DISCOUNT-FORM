@@ -10,7 +10,7 @@ function applyDiscount() {
   const messageElement = document.getElementById("message");
 
   if (discountCode === validCode) {
-    discountedPrice = originalPrice * 0.1;
+    discountedPrice = originalPrice * 0.37;
     messageElement.textContent = "Discount code successfully applied!";
     messageElement.style.color = "green";
     saveUserSubscription(userId, discountedPrice);
